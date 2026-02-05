@@ -1,5 +1,10 @@
 fun main() {
-    println("My name is Snehil")
-    println("I am learning Kotlin")
-    println("Day 1 completed!")
+    val name = "Snehil"
+    var age = 21
+    val learningKotlin = true
+
+    println("Name: $name")
+    println("Age: $age")
+    println("Next Year Age: ${age + 1}")
+    println("Learning Kotlin: $learningKotlin")
 }
