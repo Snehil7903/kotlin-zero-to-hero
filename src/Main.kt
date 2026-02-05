@@ -1,10 +1,20 @@
 fun main() {
-    val name = "Snehil"
-    var age = 21
-    val learningKotlin = true
+    print("Enter first number: ")
+    val a = readLine()!!.toInt()
 
-    println("Name: $name")
-    println("Age: $age")
-    println("Next Year Age: ${age + 1}")
-    println("Learning Kotlin: $learningKotlin")
+    print("Enter second number: ")
+    val b = readLine()!!.toInt()
+
+    print("Enter operation (+, -, *, /): ")
+    val op = readLine()!!
+
+    val result = when (op) {
+        "+" -> a + b
+        "-" -> a - b
+        "*" -> a * b
+        "/" -> a / b
+        else -> "Invalid operation"
+    }
+
+    println("Result: $result")
 }
