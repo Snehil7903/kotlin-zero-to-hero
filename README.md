@@ -5,4 +5,4 @@ Learning Kotlin from scratch to advanced with:
 - Projects
 - Clean GitHub commits
 
-Day 1: Kotlin setup and first program
+Day 1: Kotlin setup and first program.
